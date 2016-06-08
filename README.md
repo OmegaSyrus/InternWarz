@@ -9,16 +9,16 @@ Steps to install:
 
 * 3) navigate to /{project-root}/src/InternWarz
 
-* 4) 
+* 4) enter:
 
-```dotnet restore```
+       ```dotnet restore```
 
-* 5) Get the below credentials from repo owner/contributors:
-
-```dotnet user-secrets set FacebookAppId {secret-app-id}
-
-dotnet user-secrets set FacebookAppSecret {secret-app-secret}```
+* 5) Get the below credentials from repo owner/contributors and then enter these commands in the window:
+ 
+ ```dotnet user-secrets set FacebookAppId {secret-app-id}  
+    dotnet user-secrets set FacebookAppSecret {secret-app-secret}
+```
 
 * 6) run in Visual Studio 2015
 
-Reminder: to build with Facebook integration, please contact Terrence Anderson for the App Id and App Secret commands
+*Reminder*: in order to build with Facebook integration, please contact Terrence Anderson for the App Id and App Secret commands
