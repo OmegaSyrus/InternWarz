@@ -1,0 +1,13 @@
+*.suo
+*.dll
+src/InternWarz/bin/Debug/netcoreapp1.0/InternWarz.pdb
+src/InternWarz/bin/Debug/netcoreapp1.0/InternWarz.runtimeconfig.dev.json
+src/InternWarz/bin/Debug/netcoreapp1.0/InternWarz.runtimeconfig.json
+src/InternWarz/bin/Debug/netcoreapp1.0/InternWarz.deps.json
+.vs/config/applicationhost.config
+.vs/restore.dg
+src/InternWarz/obj/Debug/netcoreapp1.0/.IncrementalCache
+*.SDKVersion
+*.rsp
+src/InternWarz/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs
+src/InternWarz/obj/Debug/netcoreapp1.0/InternWarzdotnet-compile.deps.json
