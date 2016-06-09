@@ -1,6 +1,10 @@
 # InternWarz
 A website that organizes casual and competive events for interns in the Seattle area
 
+Project Goal: allow people to choose an event (Paintball, Ultimate Frisbee, Dota 2, etc.) and a company to play for (Microsoft, Amazon, Boeing, etc.) and then have an auto-generated tournament bracket to easily organize, plan and distribute
+
+First deliverable: create a Paintball bracket containing the tech companies in Seattle (MS, Amaz, Goog, etc) that can be manually managed.
+
 Steps to install:
 
 * 1) install the [.NET Core CLI Tools](https://github.com/dotnet/cli)
