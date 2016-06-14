@@ -206,7 +206,7 @@ namespace InternWarz.Controllers
                 {
                     return View("ExternalLoginFailure");
                 }
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, DisplayName = info.Principal.Identity.Name, Email = model.Email, PhoneNumber = model.Phone };
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {

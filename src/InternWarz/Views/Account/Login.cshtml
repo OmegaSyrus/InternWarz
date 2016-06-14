@@ -11,6 +11,7 @@
 
 <h2>@ViewData["Title"].</h2>
 <div class="row">
+    <!--
     <div class="col-md-8">
         <section>
             <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal">
@@ -54,10 +55,10 @@
                 </p>
             </form>
         </section>
-    </div>
+    </div>-->
     <div class="col-md-4">
         <section>
-            <h4>Use another service to log in.</h4>
+            <h4>Register to plan an event or attach your facebook to an event you're attending</h4>
             <hr />
             @{
                 var loginProviders = SignInManager.GetExternalAuthenticationSchemes().ToList();
@@ -83,7 +84,6 @@
                                     </a>
                                     <!--only do facebook for now-->
                                     <input name="provider" type="hidden"  value="Facebook"/>
-                                    <button  type="submit" class="btn btn-default btn-social btn-facebook" name="provider" value="@provider.AuthenticationScheme" title="Log in using your @provider.DisplayName account">@provider.AuthenticationScheme</button>
                                 }
                             </p>
                         </div>

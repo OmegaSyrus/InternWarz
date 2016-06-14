@@ -11,3 +11,6 @@ src/InternWarz/obj/Debug/netcoreapp1.0/.IncrementalCache
 *.rsp
 src/InternWarz/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs
 src/InternWarz/obj/Debug/netcoreapp1.0/InternWarzdotnet-compile.deps.json
+*.pdb
+/src/InternWarz/bin/src/InternWarz/bin/Debug/netcoreapp1.0
+/src/InternWarz/bin/src/InternWarz/obj/Debug/netcoreapp1.0
