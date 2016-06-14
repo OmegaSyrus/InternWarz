@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using InternWarz.Data;
 using InternWarz.Models;
 using InternWarz.Services;
+using System.Reflection;
 
 namespace InternWarz
 {
@@ -33,10 +34,15 @@ namespace InternWarz
                 builder.AddApplicationInsightsSettings(developerMode: true);
             }
 
+
+
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();
         }
-
+        private Type[] GetTypesInNamespace(Assembly assembly, string nameSpace)
+        {
+            return assembly.GetTypes().Where(t => String.Equals(t.Namespace, nameSpace, StringComparison.Ordinal)).ToArray();
+        }
         public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.

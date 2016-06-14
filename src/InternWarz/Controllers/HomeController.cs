@@ -13,9 +13,9 @@ namespace InternWarz.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Paintball()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Paintball events are here.";
 
             return View();
         }
