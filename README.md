@@ -19,9 +19,11 @@ Steps to install:
 
 * 5) Get the below credentials from repo owner/contributors and then enter these commands in the window:
  
- ```dotnet user-secrets set FacebookAppId {secret-app-id}  
-    dotnet user-secrets set FacebookAppSecret {secret-app-secret}
-```
+ ```
+dotnet user-secrets set FacebookAppId {secret-app-id}
+dotnet user-secrets set FacebookAppSecret {secret-app-secret}
+ ```
+
 
 * 6) run in Visual Studio 2015
 
